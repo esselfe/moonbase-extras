@@ -1,0 +1,15 @@
+          MODULE=python-uploadserver
+         VERSION=5.2.1
+          SOURCE=${MODULE}-${VERSION}.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/uploadserver-$VERSION
+ SOURCE_URL_FULL=https://pypi.io/packages/source/u/uploadserver/uploadserver-$VERSION.tar.gz
+      SOURCE_VFY=sha256:aa9db19332ef9eb9f1f1d1d9a70945dd18d183c8d80bb5806954b896d24565a5
+        WEB_SITE=https://pypi.org/project/uploadserver/
+            TYPE=python3
+         ENTERED=20240907
+         UPDATED=20240907
+           SHORT="Python module for file uploads"
+
+cat << EOF
+Python's http.server extended to include a file upload page
+EOF

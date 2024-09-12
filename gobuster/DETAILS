@@ -1,0 +1,19 @@
+          MODULE=gobuster
+         VERSION=3.6.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/OJ/gobuster/archive/refs/tags/v${VERSION}.tar.gz
+      SOURCE_VFY=sha256:509b16ca713de02f8fcdc7b33d97e7e18b687bb99634dde076be38297d4b401b
+        WEB_SITE=https://github.com/OJ/gobuster/
+         ENTERED=20240905
+         UPDATED=20240905
+           SHORT="Directory/File, DNS and VHost busting tool"
+
+cat << EOF
+Gobuster is a tool used to brute-force:
+ - URIs (directories and files) in web sites.
+ - DNS subdomains (with wildcard support).
+ - Virtual Host names on target web servers.
+ - Open Amazon S3 buckets
+ - Open Google Cloud buckets
+ - TFTP servers
+EOF

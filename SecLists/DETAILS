@@ -1,0 +1,16 @@
+          MODULE=SecLists
+         VERSION=2024.3
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/danielmiessler/$MODULE/archive/refs/tags/${VERSION}.tar.gz
+      SOURCE_VFY=sha256:5d1f44b23f8d378bd6429d7657f9c864dbf5328901cd104f21aff684e2510d1c
+        WEB_SITE=https://github.com/danielmiessler/SecLists/
+         ENTERED=20240905
+         UPDATED=20240905
+           SHORT="Collection of lists and payloads"
+
+cat << EOF
+SecLists is the security tester's companion. It's a collection of multiple
+types of lists used during security assessments, collected in one place.
+List types include usernames, passwords, URLs, sensitive data patterns,
+fuzzing payloads, web shells, and many more.
+EOF

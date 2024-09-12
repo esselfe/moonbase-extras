@@ -1,0 +1,18 @@
+          MODULE=python-pyftpdlib
+         VERSION=2.0.0
+          SOURCE=${MODULE}-${VERSION}.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/pyftpdlib-$VERSION
+ SOURCE_URL_FULL=https://pypi.io/packages/source/p/pyftpdlib/pyftpdlib-$VERSION.tar.gz
+      SOURCE_VFY=sha256:1aded131fc7d41b0fa734c7879a96a6251366b141e8886782bcb1de616ffc791
+        WEB_SITE=https://pypi.org/project/pyftpdlib/
+            TYPE=python3
+         ENTERED=20240907
+         UPDATED=20240907
+           SHORT="Python module for FTP operations"
+
+cat << EOF
+Python FTP server library provides a high-level portable interface to easily
+write very efficient, scalable and asynchronous FTP servers with Python.
+It is the most complete RFC-959 FTP server implementation available for
+Python programming language.
+EOF

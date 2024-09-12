@@ -1,0 +1,15 @@
+          MODULE=arp-scan
+         VERSION=1.10.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=https://github.com/royhills/$MODULE/releases/download/$VERSION
+      SOURCE_VFY=sha256:a078fe8711ecbb8b99121c3d8be26ae7e7f339f11010ef61318be4f33394d012
+        WEB_SITE=https://github.com/royhills/arp-scan/
+         ENTERED=20240912
+         UPDATED=20240912
+           SHORT="Collection of lists and payloads"
+
+cat << EOF
+arp-scan is a network scanning tool that uses the ARP protocol to discover and
+fingerprint IPv4 hosts on the local network. It is available for Linux, BSD,
+macOS and Solaris under the GPLv3 licence.
+EOF

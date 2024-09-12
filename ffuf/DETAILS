@@ -1,0 +1,13 @@
+          MODULE=ffuf
+         VERSION=2.1.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/$MODULE/$MODULE/archive/refs/tags/v${VERSION}.tar.gz
+      SOURCE_VFY=sha256:52d3daf5b97528a74b7b3305decd4bb01a553a8f18d39fc107ebc15dc3113de7
+        WEB_SITE=https://github.com/ffuf/ffuf/wiki/
+         ENTERED=20240906
+         UPDATED=20240906
+           SHORT="Fast web fuzzer"
+
+cat << EOF
+Fast web fuzzer written in Go
+EOF
