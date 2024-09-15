@@ -1,0 +1,17 @@
+          MODULE=hashcat
+         VERSION=6.2.5
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/$MODULE/$MODULE/archive/refs/tags/v${VERSION}.tar.gz
+      SOURCE_VFY=sha256:6f6899d7ad899659f7b43a4d68098543ab546d2171f8e51d691d08a659378969
+        WEB_SITE=https://hashcat.net/hashcat/
+         ENTERED=20240915
+         UPDATED=20240915
+           SHORT="World's fastest and most advanced password recovery utility"
+
+cat << EOF
+hashcat is the world's fastest and most advanced password recovery utility,
+supporting five unique modes of attack for over 300 highly-optimized hashing
+algorithms. hashcat currently supports CPUs, GPUs, and other hardware
+accelerators on Linux, Windows, and macOS, and has facilities to help enable
+distributed password cracking.
+EOF
