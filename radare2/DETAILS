@@ -1,0 +1,24 @@
+          MODULE=radare2
+         VERSION=5.9.4
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=https://github.com/radareorg/$MODULE/releases/download/$VERSION
+      SOURCE_VFY=sha256:edf4fc9255482ef790a85e1e563ecce147c6dc6ef49572586b3bb7fa6f1331b3
+        WEB_SITE=https://www.radare.org/
+            TYPE=meson
+         ENTERED=20240916
+         UPDATED=20240916
+           SHORT="UNIX-like reverse engineering framework and command-line toolset"
+
+cat << EOF
+r2 is a complete rewrite of radare. It provides a set of libraries, tools and
+plugins to ease reverse engineering tasks. Distributed mostly under LGPLv3,
+each plugin can have different licenses (see r2 -L, rasm2 -L, ...).
+
+The radare project started as a simple command-line hexadecimal editor focused
+on forensics. Today, r2 is a featureful low-level command-line tool with
+support for scripting with the embedded Javascript interpreter or via r2pipe.
+
+r2 can edit files on local hard drives, view kernel memory, and debug programs
+locally or via a remote gdb/windbg servers. r2's wide architecture support
+allows you to analyze, emulate, debug, modify, and disassemble any binary.
+EOF
