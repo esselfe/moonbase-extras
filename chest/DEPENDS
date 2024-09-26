@@ -1,0 +1,4 @@
+depends %OSSL
+
+optional_depends go "USE_GO=1" "" "to install the version written in Go"
+optional_depends python "USE_PY=1" "" "to install the version written in Python"

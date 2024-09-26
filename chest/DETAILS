@@ -1,0 +1,25 @@
+          MODULE=chest
+         VERSION=0.2.2
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=https://github.com/esselfe/$MODULE/releases/download/${MODULE}-${VERSION}/
+      SOURCE_VFY=sha256:d6a894995ddb9d9a4e0c5ca1fb217191085d8e0df26658404749895ff8e751fb
+        WEB_SITE=https://github.com/esselfe/chest/
+         ENTERED=20240925
+         UPDATED=20240925
+           SHORT="Very basic file locking method"
+
+cat << EOF
+The chest program can be used to encrypt and decrypt files using a password
+hash hopping algorithm. Note that the encrypted output may be vulnerable to
+hash database cracking due to its simplicity.
+
+Just give a filename as argument and it should detect, according to the
+presence of the .chest extension, whether to encrypt or decrypt.
+
+Neither the password or the hash are stored in the output file, the hash is
+generated at runtime after the user has been asked for a password.
+
+It is now possible to use a file as password. The hash will be computed with
+the content all at once, so use a file that can be entirely loaded into
+memory.
+EOF
