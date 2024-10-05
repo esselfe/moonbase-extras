@@ -1,9 +1,0 @@
-
-optional_depends zlib " USE_SYSTEM_ZLIB=1" "" \
-        "Use system zlib instead of bundled"
-
-optional_depends CUDA-OpenCL-headers " USE_SYSTEM_OPENCL=1" "" \
-        "Use system OpenCL instead of bundled"
-
-optional_depends xxHash " USE_SYSTEM_XXHASH=1" "" \
-        "Use system xxHash instead of bundled"
