@@ -1,0 +1,13 @@
+          MODULE=hURL
+         VERSION=2.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=git+https://github.com/fnord0/$MODULE:afca9c54c72426c52d317cb921b6965320e2f5bb
+      SOURCE_VFY=
+        WEB_SITE=https://github.com/fnord0/hURL/
+         ENTERED=20241009
+         UPDATED=20241009
+           SHORT="Hexadecimal & URL encoder + decoder"
+
+cat << EOF
+hURL - hexadecimal & URL encoder + decoder
+EOF
