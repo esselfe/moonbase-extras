@@ -1,0 +1,18 @@
+          MODULE=httping
+         VERSION=3.6
+          SOURCE=HTTPing-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/HTTPing-$VERSION
+ SOURCE_URL_FULL=https://github.com/folkertvanheusden/HTTPing/archive/refs/tags/v3.6.tar.gz
+      SOURCE_VFY=sha256:d332fc5436bcf8290bcb4fe75b7019b90facfb64264dc3c7bc3407da27c18d77
+        WEB_SITE=https://www.vanheusden.com/httping/
+         ENTERED=20241009
+         UPDATED=20241009
+           SHORT="Ping an HTTP server"
+
+cat << EOF
+Httping is like 'ping' but for http-requests.
+Give it an url, and it'll show you how long it takes to connect, send a request
+and retrieve the reply (only the headers). Be aware that the transmission
+across the network also takes time! So it measures the latency of the
+webserver + network.
+EOF
