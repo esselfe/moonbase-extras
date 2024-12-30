@@ -1,8 +1,8 @@
           MODULE=chest
-         VERSION=0.2.6
+         VERSION=0.3.1
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://github.com/esselfe/$MODULE/releases/download/${MODULE}-${VERSION}/
-      SOURCE_VFY=sha256:0975c43c596b112d16911522a92756b7a954b45509a5c8923c62a9d4e0d4e288
+      SOURCE_VFY=sha256:418b86d15fcdcc1aace776fe98619c84eac9e090205865889c8c47a1c427b454
         WEB_SITE=https://github.com/esselfe/chest/
          ENTERED=20240926
          UPDATED=20241014
@@ -10,8 +10,9 @@
 
 cat << EOF
 The chest program can be used to encrypt and decrypt files using a password
-hash hopping algorithm. Note that the encrypted output may be vulnerable to
-hash database cracking due to its simplicity.
+hash hopping algorithm (SHA512 with fixed length or SHAKE256 with custom
+length). Note that the encrypted output may be vulnerable to hash database
+cracking due to its simplicity.
 
 Just give a filename as argument and it should detect, according to the
 presence of the .chest extension, whether to encrypt or decrypt.
