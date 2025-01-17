@@ -1,5 +1,5 @@
 depends %OSSL
 
-optional_depends go     "USE_GO=1"   "" "to install the version written in Go"
-optional_depends python "USE_PY=1"   "" "to install the version written in Python"
-optional_depends rustc  "USE_RUST=1" "" "to install the version written in Rust"
+optional_depends go     "USE_GO=1"     "" "for the version written in Go"
+optional_depends python "USE_PYTHON=1" "" "for the version written in Python"
+optional_depends rustc  "USE_RUST=1"   "" "for the version written in Rust"
