@@ -1,11 +1,11 @@
           MODULE=gobuster
-         VERSION=3.6.0
+         VERSION=3.7.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/OJ/gobuster/archive/refs/tags/v${VERSION}.tar.gz
-      SOURCE_VFY=sha256:509b16ca713de02f8fcdc7b33d97e7e18b687bb99634dde076be38297d4b401b
+      SOURCE_VFY=sha256:893f1979b453d655880c19552e1f894110a661a4057a58e95a4d7505bf6d7fa8
         WEB_SITE=https://github.com/OJ/gobuster/
          ENTERED=20240905
-         UPDATED=20240905
+         UPDATED=20250705
            SHORT="Directory/File, DNS and VHost busting tool"
 
 cat << EOF
