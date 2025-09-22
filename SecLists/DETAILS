@@ -1,11 +1,11 @@
           MODULE=SecLists
-         VERSION=2025.1
+         VERSION=2025.3
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/danielmiessler/$MODULE/archive/refs/tags/${VERSION}.tar.gz
-      SOURCE_VFY=sha256:a830279f7c537ce42015b06ec95bd70f1e1ba75e6c81bb04d11e5fd946c7f420
+      SOURCE_VFY=sha256:8fa88740c36777012f637ebb844de43d1020fb4273e080019d5f0c80360f433f
         WEB_SITE=https://github.com/danielmiessler/SecLists/
          ENTERED=20240905
-         UPDATED=20250223
+         UPDATED=20250922
          ARCHIVE=off
            SHORT="Collection of lists and payloads"
 
