@@ -1,11 +1,11 @@
           MODULE=chest
-         VERSION=0.3.3
+         VERSION=0.3.4
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://github.com/esselfe/$MODULE/releases/download/${MODULE}-${VERSION}/
-      SOURCE_VFY=sha256:4e7074db8ab215f44a8e71ec02ec042a1f8a46501d8df2ac7d52ffd77fe4e16d
-        WEB_SITE=https://github.com/esselfe/chest/
+      SOURCE_VFY=sha256:00f575b2c477b905d3bcc838f3d3f8b1bb5f05deba913aa75c65134face0aa2f
+        WEB_SITE=https://github.com/esselfe/chest
          ENTERED=20240926
-         UPDATED=20250129
+         UPDATED=20251119
            SHORT="Very basic file locking method"
 
 cat << EOF
