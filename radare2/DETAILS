@@ -1,12 +1,12 @@
           MODULE=radare2
-         VERSION=5.9.4
+         VERSION=6.0.8
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://github.com/radareorg/$MODULE/releases/download/$VERSION
-      SOURCE_VFY=sha256:edf4fc9255482ef790a85e1e563ecce147c6dc6ef49572586b3bb7fa6f1331b3
+      SOURCE_VFY=sha256:f4cd10c80706e48309c8310ecf82dbb43128c1ccd236481904977845fec931d6
         WEB_SITE=https://www.radare.org/
             TYPE=meson
          ENTERED=20240916
-         UPDATED=20240916
+         UPDATED=20260101
            SHORT="UNIX-like reverse engineering framework and command-line toolset"
 
 cat << EOF
