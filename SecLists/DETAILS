@@ -1,13 +1,13 @@
           MODULE=SecLists
-         VERSION=2025.3
+         VERSION=2026.1
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/danielmiessler/$MODULE/archive/refs/tags/${VERSION}.tar.gz
-      SOURCE_VFY=sha256:8fa88740c36777012f637ebb844de43d1020fb4273e080019d5f0c80360f433f
+      SOURCE_VFY=sha256:226c49d04974ec6c39dadbf38ba78e67fec8824d729e66907f6050329da98932
         WEB_SITE=https://github.com/danielmiessler/SecLists/
          ENTERED=20240905
-         UPDATED=20250922
-         ARCHIVE=off
+         UPDATED=20260324
            SHORT="Collection of lists and payloads"
+ARCHIVE=off
 
 cat << EOF
 SecLists is the security tester's companion. It's a collection of multiple
