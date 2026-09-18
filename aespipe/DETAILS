@@ -1,12 +1,12 @@
           MODULE=aespipe
-         VERSION=2.4h
+         VERSION=2.4j
           SOURCE=$MODULE-v$VERSION.tar.bz2
 SOURCE_DIRECTORY=$MODULE-v$VERSION
       SOURCE_URL=https://loop-aes.sourceforge.net/aespipe/
-      SOURCE_VFY=sha256:eab311fc26ea43289bc3adf660d6270492494960725d2026ec4917294a1aba49
+      SOURCE_VFY=sha256:448fe1e58612c184951645ddd926fc5bdb64fc4f2f828c766c82aa1127e9a3e2
         WEB_SITE=https://loop-aes.sourceforge.net/aespipe/
          ENTERED=20240909
-         UPDATED=20240909
+         UPDATED=20260918
            SHORT="Program for AES encryption and decryption"
 
 cat << EOF
