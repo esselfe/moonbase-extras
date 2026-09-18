@@ -1,12 +1,13 @@
           MODULE=httping
-         VERSION=3.6
+         VERSION=4.4.0
           SOURCE=HTTPing-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/HTTPing-$VERSION
- SOURCE_URL_FULL=https://github.com/folkertvanheusden/HTTPing/archive/refs/tags/v3.6.tar.gz
-      SOURCE_VFY=sha256:d332fc5436bcf8290bcb4fe75b7019b90facfb64264dc3c7bc3407da27c18d77
+ SOURCE_URL_FULL=https://github.com/folkertvanheusden/HTTPing/archive/refs/tags/v${VERSION}.tar.gz
+      SOURCE_VFY=sha256:87fa2da5ac83c4a0edf4086161815a632df38e1cc230e1e8a24a8114c09da8fd
         WEB_SITE=https://www.vanheusden.com/httping/
+            TYPE=cmake
          ENTERED=20241009
-         UPDATED=20241009
+         UPDATED=20260918
            SHORT="Ping an HTTP server"
 
 cat << EOF
